@@ -35,3 +35,11 @@ Below is a list of all the available API methods, their endpoints, and descripti
 - Node.js installed on your machine.
 - MongoDB setup (either locally or using a cloud service like MongoDB Atlas).
 
+## Setup an .env file containing
+MONGO_URI=mongodb+srv://vjpmongodb:vjpmongodb@cluster0.pakwt.mongodb.net/todo?retryWrites=true&w=majority
+PORT=3000
+
+### YOU ARE GOOD TO GO
+
+
+

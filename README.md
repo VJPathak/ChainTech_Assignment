@@ -29,10 +29,46 @@ npm install
 
 API Endpoints: Task Routes
 
-**Method	    Endpoint	             Description**
-1) POST	      /tasks	               Create a new task.
-2) GET	      /tasks	               Retrieve all tasks.
-3) GET	      /tasks/:id	           Retrieve a specific task.
-4) PUT	      /tasks/:id	           Update a task.
-5) DELETE	    /tasks/:id	           Delete a task.
-6) PATCH	    /tasks/:id/complete	   Mark a task as completed.
+<h1>API Endpoints</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Method</th>
+                <th>Endpoint</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>POST</td>
+                <td>/tasks</td>
+                <td>Create a new task.</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/tasks</td>
+                <td>Retrieve all tasks.</td>
+            </tr>
+            <tr>
+                <td>GET</td>
+                <td>/tasks/:id</td>
+                <td>Retrieve a specific task.</td>
+            </tr>
+            <tr>
+                <td>PUT</td>
+                <td>/tasks/:id</td>
+                <td>Update a task.</td>
+            </tr>
+            <tr>
+                <td>DELETE</td>
+                <td>/tasks/:id</td>
+                <td>Delete a task.</td>
+            </tr>
+            <tr>
+                <td>PATCH</td>
+                <td>/tasks/:id/complete</td>
+                <td>Mark a task as completed.</td>
+            </tr>
+        </tbody>
+    </table>

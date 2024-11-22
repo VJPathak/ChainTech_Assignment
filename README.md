@@ -16,59 +16,22 @@ A simple and efficient To-Do List application built using Node.js, Express, and 
 
 ---
 
-## **Installation**
+## API Endpoints
 
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+Below is a list of all the available API methods, their endpoints, and descriptions:
 
-Install dependencies:
+| Method | Endpoint                | Description                           |
+|--------|-------------------------|---------------------------------------|
+| POST   | `/tasks`                | Create a new task.                   |
+| GET    | `/tasks`                | Retrieve all tasks.                  |
+| GET    | `/tasks/:id`            | Retrieve a specific task.            |
+| PUT    | `/tasks/:id`            | Update a task.                       |
+| DELETE | `/tasks/:id`            | Delete a task.                       |
+| PATCH  | `/tasks/:id/complete`   | Mark a task as completed.            |
 
-npm install
+## Setup Instructions
 
-API Endpoints: Task Routes
+### Prerequisites
+- Node.js installed on your machine.
+- MongoDB setup (either locally or using a cloud service like MongoDB Atlas).
 
-<h1>API Endpoints</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Method</th>
-                <th>Endpoint</th>
-                <th>Description</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>POST</td>
-                <td>/tasks</td>
-                <td>Create a new task.</td>
-            </tr>
-            <tr>
-                <td>GET</td>
-                <td>/tasks</td>
-                <td>Retrieve all tasks.</td>
-            </tr>
-            <tr>
-                <td>GET</td>
-                <td>/tasks/:id</td>
-                <td>Retrieve a specific task.</td>
-            </tr>
-            <tr>
-                <td>PUT</td>
-                <td>/tasks/:id</td>
-                <td>Update a task.</td>
-            </tr>
-            <tr>
-                <td>DELETE</td>
-                <td>/tasks/:id</td>
-                <td>Delete a task.</td>
-            </tr>
-            <tr>
-                <td>PATCH</td>
-                <td>/tasks/:id/complete</td>
-                <td>Mark a task as completed.</td>
-            </tr>
-        </tbody>
-    </table>
